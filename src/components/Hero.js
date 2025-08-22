@@ -296,19 +296,19 @@ const Hero = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  <span className="text-white/80 text-sm">AI-Powered Analytics</span>
+                  <span className="text-white/80 text-sm">Strategic Planning</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
-                  <span className="text-white/80 text-sm">Smart Distribution</span>
+                  <span className="text-white/80 text-sm">Compelling Content</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  <span className="text-white/80 text-sm">Real-time Insights</span>
+                  <span className="text-white/80 text-sm">⁠Effective Promotion</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
-                  <span className="text-white/80 text-sm">Automated Processes</span>
+                  <span className="text-white/80 text-sm">⁠Strong Audience Engagement</span>
                 </div>
               </div>
             </div>
@@ -579,13 +579,12 @@ const Hero = () => {
               </div>
             </div>
 
+
           </div>
 
           {/* Center the last two cards */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8 w-full max-w-6xl mt-6">
-            {/* Empty space for centering on large screens */}
-            <div className="hidden lg:block"></div>
-            
+         
             {/* Parris Ladame */}
             <div className="group relative overflow-hidden rounded-lg bg-gradient-to-br from-teal-600/20 to-green-600/20 backdrop-blur-sm border border-white/10 hover:border-white/30 transition-all duration-300 hover:scale-105">
               <div className="aspect-square bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: 'url(/assets/7.jpg)' }}>
@@ -608,8 +607,28 @@ const Hero = () => {
               </div>
             </div>
             
+                 {/*Boosie Badazz */}
+            <div className="group relative overflow-hidden rounded-lg bg-gradient-to-br from-indigo-600/20 to-purple-600/20 backdrop-blur-sm border border-white/10 hover:border-white/30 transition-all duration-300 hover:scale-105">
+              <div className="aspect-square bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: 'url(/assets/8.jpeg)' }}>
+             
+              </div>
+              <div className="p-4 text-center">
+                <h3 className="text-white font-semibold text-sm">Boosie Badazz</h3>
+              
+              </div>
+            </div>
+                 {/* KoKo Kitty */}
+            <div className="group relative overflow-hidden rounded-lg bg-gradient-to-br from-indigo-600/20 to-purple-600/20 backdrop-blur-sm border border-white/10 hover:border-white/30 transition-all duration-300 hover:scale-105">
+              <div className="aspect-square bg-cover bg-top flex items-center justify-center" style={{ backgroundImage: 'url(/assets/9.jpeg)' }}>
+             
+              </div>
+              <div className="p-4 text-center">
+                <h3 className="text-white font-semibold text-sm">KoKo Kitty</h3>
+              
+              </div>
+            </div>
             {/* Empty space for centering on large screens */}
-            <div className="hidden lg:block"></div>
+           
           </div>
 
         

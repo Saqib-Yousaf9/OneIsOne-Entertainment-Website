@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaSpotify, FaApple, FaAmazon, FaTiktok, FaInstagram, FaYoutube, FaItunesNote, FaSoundcloud } from 'react-icons/fa';
+import { FaSpotify, FaApple, FaAmazon, FaTiktok, FaInstagram, FaYoutube, FaItunesNote, FaSoundcloud,FaHeart } from 'react-icons/fa';
 import { SiTidal, SiAudiomack } from 'react-icons/si';
 
 const LabelBridge = () => (
@@ -109,7 +109,11 @@ const LabelBridge = () => (
   <section className="w-full py-16 px-4 lg:px-0 flex flex-col items-center">
     <div className="  h-full w-full oio-animated-gradient">
     <h2 className="raleway-600 text-4xl font-extrabold text-center mb-12 text-white mt-16">Digital Service Providers</h2>
-    <div className="grid grid-cols-2 md:grid-cols-5 gap-6 w-full max-w-4xl mx-auto mb-12 ">
+    <div className="grid grid-cols-2 md:grid-cols-7 gap-6 w-full max-w-6xl mx-auto mb-12 ">
+       <div className="bg-white/30 rounded-lg shadow flex flex-col items-center justify-center py-4 px-4">
+        <FaHeart className="text-white text-4xl mb-2" />
+        <span className="text-black font-semibold text-lg">iHeart Radio</span>
+      </div>
       <div className="bg-white/30 rounded-lg shadow flex flex-col items-center justify-center py-4 px-4">
         <FaSpotify className="text-white text-4xl mb-2" />
         <span className="text-black font-semibold text-lg">Spotify</span>
@@ -120,7 +124,7 @@ const LabelBridge = () => (
       </div>
       <div className="bg-white/30 rounded-lg shadow flex flex-col items-center justify-center py-4 px-4">
         <FaAmazon className="text-white text-4xl mb-2" />
-        <span className="text-black font-semibold text-lg">amazon music</span>
+        <span className="text-black font-semibold text-lg text-center">Amazon Music</span>
       </div>
       <div className="bg-white/30 rounded-lg shadow flex flex-col items-center justify-center py-4 px-4">
         <SiTidal className="text-white text-4xl mb-2" />
@@ -130,6 +134,17 @@ const LabelBridge = () => (
         <SiAudiomack className="text-white text-4xl mb-2" />
         <span className="text-black font-semibold text-lg">Audiomack</span>
       </div>
+       <div className="bg-white/30 rounded-lg shadow flex flex-col items-center justify-center py-4 px-4">
+        <FaItunesNote className="text-white text-4xl mb-2" />
+        <span className="text-black font-semibold text-lg">iTunes</span>
+      </div>
+      
+       <div className="bg-white/30 rounded-lg shadow flex flex-col items-center justify-center py-4 px-4">
+      <img src="/assets/Anghami.png" alt="Anghami" className="w-13 h-12 mb-2 object-contain" />
+        <span className="text-black font-semibold text-lg">Anghami</span>
+      </div>
+      
+      
       <div className="bg-white/30 rounded-lg shadow flex flex-col items-center justify-center py-4 px-4">
         <FaTiktok className="text-white text-4xl mb-2" />
         <span className="text-black font-semibold text-lg">TikTok</span>
@@ -149,6 +164,10 @@ const LabelBridge = () => (
             <div className="bg-white/30 rounded-lg shadow flex flex-col items-center justify-center py-4 px-4">
         <FaSoundcloud className="text-white text-4xl mb-2" />
         <span className="text-black font-semibold text-lg">SoundCloud</span>
+      </div>
+        <div className="bg-white/30 rounded-lg shadow flex flex-col items-center justify-center py-4 px-4">
+         <img src="/assets/Napster.png" alt="Napster" className="w-13 h-12 mb-2 object-contain" />
+        <span className="text-black font-semibold text-lg">Napster</span>
       </div>
       
     </div>
