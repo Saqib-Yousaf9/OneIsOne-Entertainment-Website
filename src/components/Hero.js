@@ -36,14 +36,14 @@ const Hero = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative min-h-screen overflow-hidden pt-20">
+    <section ref={sectionRef} className="relative min-h-screen overflow-hidden pt-16 sm:pt-20">
       {/* Animated Gradient Background for the entire hero */}
       <div className="animated-gradient-bg absolute inset-0 w-full h-full z-0 pointer-events-none" />
       {/* Main Content */}
-      <main id="home" className="oio-visible oio-page-- relative z-10">
-        <section className="oio-section--split oio-full-height">
+      <main id="home" className="oio-visible oio-page-- relative z-10 px-4 sm:px-6 lg:px-8">
+        <section className="oio-section--split oio-full-height max-w-7xl mx-auto">
           {/* Grid Column 2 - Stretch Column with Content */}
-          <div className="oio-grid__column">
+          <div className="oio-grid__column w-full">
             <div className="css-181x8d7">
               <div className="oio-grid__column">
                 {/* Two Column Grid Layout - Responsive */}
@@ -52,12 +52,12 @@ const Hero = () => {
                   <div className="oio-carousel__slide oio-subgrid border-r-0 lg:border-r border-white/20 mt-10 lg:mt-20 ml-0 lg:ml-20">
                     <div className="oio-grid__column p-4 lg:p-6">
                       <div className="css-yah2wy">
-                        <h3 className="raleway-600 oio-text--upper text-white text-xl lg:text-4xl font-bold mb-3 leading-relaxed text-center lg:text-left">
-                          Welcome To <span className="oio-animated-gradient-text bg-clip-text text-transparent" style={{
+                        <h3 className="raleway-600 oio-text--upper text-white text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold mb-3 leading-tight sm:leading-relaxed text-center lg:text-left">
+                          Welcome To <span className="oio-animated-gradient-text bg-clip-text text-transparent block sm:inline" style={{
                             backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)',
                             WebkitBackgroundClip: 'text',
                             WebkitTextFillColor: 'transparent'
-                          }}>OneIsOne Entertainment</span> Where Dreams Shift The Culture!!
+                          }}>OneIsOne Entertainment</span> <span className="block sm:inline mt-2 sm:mt-0">Where Dreams Shift The Culture!!</span>
                         </h3>
                         <div className="text-center lg:text-left">
                           <a
@@ -144,18 +144,14 @@ const Hero = () => {
 
                   {/* Grid Item 2 - Right */}
                   <div className="oio-carousel__slide oio-subgrid">
-                    <div className=" oio-grid__column oio-show--sm-up mt-12 lg:mt-24 mb-12 lg:mb-24">
-                      <div className="flex items-center justify-center" style={{ minHeight: '150px', maxHeight: '200px' }}>
+                    <div className="oio-grid__column oio-show--sm-up mt-8 sm:mt-12 lg:mt-24 mb-8 sm:mb-12 lg:mb-24">
+                      <div className="flex items-center justify-center">
                         <img
                           src="/assets/logo.gif"
                           alt="Logo"
-                          className="pointer-events-none"
+                          className="pointer-events-none w-48 sm:w-64 md:w-72 lg:w-80 h-auto"
                           style={{ 
-                            width: '300px', 
-                            height: '300px', 
                             background: 'transparent',
-                            maxWidth: '100%',
-                            height: 'auto'
                           }}
                         />
                       </div>
@@ -221,15 +217,14 @@ const Hero = () => {
         </section>
       </main>
       {/* Release Strategy Section */}
-      <section className="w-full py-16 px-4 lg:px-0 flex flex-col items-center mt-12">
+      <section className="w-full py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 flex flex-col items-center mt-8 sm:mt-12">
         {/* Main Heading Above Video */}
-        <div className="w-full max-w-6xl mx-auto text-center mb-12 px-4">
-          <h2 className="raleway-600 text-2xl lg:text-3xl font-bold text-white mb-6 transition-all duration-300 bg-clip-text text-transparent"
+        <div className="w-full max-w-6xl mx-auto text-center mb-8 sm:mb-12">
+          <h2 className="raleway-600 text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-4 sm:mb-6 transition-all duration-300 bg-clip-text text-transparent"
           style={{
               backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-              fontSize: '32pt',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
               letterSpacing: '0.05em',
               lineHeight: '1.2'
             }}>
@@ -525,9 +520,9 @@ const Hero = () => {
       </section>
 
       {/* Client Catalog Section - At Bottom */}
-      <section className="w-full py-16 px-4 lg:px-0 flex flex-col items-center mt-12">
-        <h2 className="raleway-600 oio-text--upper text-white text-2xl lg:text-4xl font-bold mb-8 text-center">
-          <span className="oio-animated-gradient-text bg-clip-text text-transparent" style={{
+      <section className="w-full py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 flex flex-col items-center mt-8 sm:mt-12">
+        <h2 className="raleway-600 oio-text--upper text-white text-xl sm:text-2xl lg:text-4xl font-bold mb-6 sm:mb-8 text-center">
+          <span className="oio-animated-gradient-text bg-clip-text text-transparent inline-block" style={{
             backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent'
@@ -535,7 +530,7 @@ const Hero = () => {
         </h2>
         
         <div className="max-w-6xl w-full mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {/* Calboy */}
             <div className="group relative overflow-hidden rounded-lg bg-gradient-to-br from-blue-600/20 to-cyan-600/20 backdrop-blur-sm border border-white/10 hover:border-white/30 transition-all duration-300 hover:scale-105">
               <div className="aspect-square bg-cover bg-top flex items-center justify-center" style={{ backgroundImage: 'url(/assets/2.jpg)' }}>
@@ -651,5 +646,33 @@ export default Hero;
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
+}
+
+/* Responsive Text Sizing */
+@media (max-width: 640px) {
+  .text-responsive {
+    font-size: clamp(0.875rem, 4vw, 1rem);
+  }
+}
+
+/* Improved Spacing for Mobile */
+@media (max-width: 640px) {
+  .spacing-responsive {
+    padding: 1rem;
+    margin: 0.5rem 0;
+  }
+}
+
+/* Better Touch Targets for Mobile */
+@media (max-width: 640px) {
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Smooth Transitions */
+.transition-responsive {
+  transition: all 0.3s ease-in-out;
 }
 `}</style> 

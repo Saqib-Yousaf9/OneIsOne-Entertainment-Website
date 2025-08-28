@@ -4,12 +4,16 @@ import { SiTidal, SiAudiomack } from 'react-icons/si';
 
 const LabelBridge = () => (
   <>
-  <section className="w-full py-16 px-4 lg:px-0 flex flex-col items-center oio-animated-gradient">
-    <img src="/assets/label_bridge.png" alt="Label Bridge Logo" style={{ maxWidth: '220px', marginBottom: '1.5rem', display: 'block' }} />
+  <section className="w-full py-8 sm:py-12 md:py-16 px-4 lg:px-0 flex flex-col items-center oio-animated-gradient">
+    <img 
+      src="/assets/label_bridge.png" 
+      alt="Label Bridge Logo" 
+      className="w-[180px] sm:w-[200px] md:w-[220px] mb-6 block"
+    />
     <div className="max-w-5xl w-full mx-auto">
-      <div className="max-w-4xl w-full mx-auto  ">
-        <h2 className="raleway-600 text-4xl font-extrabold text-center mb-8 text-white uppercase">What is Label Bridge?</h2>
-        <p className="text-white/90 text-base lg:text-lg mb-8 text-center">
+      <div className="max-w-4xl w-full mx-auto">
+        <h2 className="raleway-600 text-2xl sm:text-3xl md:text-4xl font-extrabold text-center mb-4 sm:mb-6 md:mb-8 text-white uppercase">What is Label Bridge?</h2>
+        <p className="text-white/90 text-sm sm:text-base md:text-lg mb-6 sm:mb-8 text-center">
           Label Bridge is a dynamic music technology ecosystem aimed at empowering independent artists and labels to distribute, monetize, and manage their music more efficiently. Specifically crafted for independent musicians, producers, and small labels, Label Bridge offers a straightforward solution for getting music onto streaming platforms. It also provides essential tools for maximizing revenue and tracking royalties. With all the resources you need to build and manage your career like a major label, you can easily access everything from your mobile device or computer.
         </p>
       </div>
@@ -20,25 +24,24 @@ const LabelBridge = () => (
         <h3 className="raleway-600 text-2xl font-bold text-white mb-4 mt-12 text-center uppercase">What Instruments Shape Our Ecosystem?</h3>
       </div>
 
-      <div className="max-w-4xl w-full mx-auto flex flex-row flex-wrap justify-center items-center gap-6 bg-transparent p-0 mb-8">
-        <div className="text-white/90 text-lg font-semibold px-6 py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg,#3b00ff, #FF06C1) 1'}} >Digital Distribution</div>
-        <div className="text-white/90 text-lg font-semibold px-6 py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg, #3b00ff, #FF06C1) 1'}} >Accounting</div>
-        <div className="text-white/90 text-lg font-semibold px-6 py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg, #3b00ff, #FF06C1) 1'}} >Analytics & Data</div>
-        <div className="text-white/90 text-lg font-semibold px-6 py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg, #3b00ff, #FF06C1) 1'}} >Catalogue Arrangement</div>
-        <div className="text-white/90 text-lg font-semibold px-6 py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg, #3b00ff, #FF06C1) 1'}} >Release Management</div>
-        <div className="text-white/90 text-lg font-semibold px-6 py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg, #3b00ff, #FF06C1) 1'}} >Split Sheet Administration</div>
+      <div className="max-w-4xl w-full mx-auto flex flex-row flex-wrap justify-center items-center gap-3 sm:gap-4 md:gap-6 bg-transparent p-0 mb-8">
+        <div className="text-white/90 text-sm sm:text-base md:text-lg font-semibold px-4 sm:px-5 md:px-6 py-2 sm:py-3 md:py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg,#3b00ff, #FF06C1) 1'}} >Digital Distribution</div>
+        <div className="text-white/90 text-sm sm:text-base md:text-lg font-semibold px-4 sm:px-5 md:px-6 py-2 sm:py-3 md:py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg, #3b00ff, #FF06C1) 1'}} >Accounting</div>
+        <div className="text-white/90 text-sm sm:text-base md:text-lg font-semibold px-4 sm:px-5 md:px-6 py-2 sm:py-3 md:py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg, #3b00ff, #FF06C1) 1'}} >Analytics & Data</div>
+        <div className="text-white/90 text-sm sm:text-base md:text-lg font-semibold px-4 sm:px-5 md:px-6 py-2 sm:py-3 md:py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg, #3b00ff, #FF06C1) 1'}} >Catalogue Arrangement</div>
+        <div className="text-white/90 text-sm sm:text-base md:text-lg font-semibold px-4 sm:px-5 md:px-6 py-2 sm:py-3 md:py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg, #3b00ff, #FF06C1) 1'}} >Release Management</div>
+        <div className="text-white/90 text-sm sm:text-base md:text-lg font-semibold px-4 sm:px-5 md:px-6 py-2 sm:py-3 md:py-4 rounded-full shadow-none bg-transparent" style={{border: '2px solid', borderImage: 'linear-gradient(90deg, #3b00ff, #FF06C1) 1'}} >Split Sheet Administration</div>
       </div>
  {/* Distribution Section - Two Column Grid */}
       <section className="w-full py-12 px-0 flex flex-col items-center">
         <div className="w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full">
             {/* Distribution Text */}
-            <div className="bg-black/70 rounded-lg p-8 flex flex-col h-full shadow-lg border-r-0 lg:border-r border-white/20 w-full">
+            <div className="bg-black/70 rounded-lg p-4 sm:p-6 md:p-8 flex flex-col h-full shadow-lg border-r-0 lg:border-r border-white/20 w-full">
               <div className="flex flex-col items-center h-full w-full">
                 <h4
-                  className="raleway-600 oio-text--upper font-bold mb-4 text-center bg-clip-text text-transparent uppercase"
+                  className="raleway-600 oio-text--upper font-bold mb-3 sm:mb-4 text-center bg-clip-text text-transparent uppercase text-xl sm:text-2xl md:text-[1.6rem]"
                   style={{
-                    fontSize: '1.6rem',
                     backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)',
                     WebkitBackgroundClip: 'text',
                     WebkitTextFillColor: 'transparent',
@@ -55,9 +58,8 @@ const LabelBridge = () => (
               </div>
             </div>
             {/* Artist Development Section - Separate */}
-            <div className="bg-black/70 rounded-lg p-8 shadow-lg flex flex-col items-center w-full">
-              <h4 className="raleway-600 oio-text--upper font-bold mb-4 text-center bg-clip-text text-transparent uppercase"   style={{
-                    fontSize: '1.6rem',
+            <div className="bg-black/70 rounded-lg p-4 sm:p-6 md:p-8 shadow-lg flex flex-col items-center w-full">
+              <h4 className="raleway-600 oio-text--upper font-bold mb-3 sm:mb-4 text-center bg-clip-text text-transparent uppercase text-xl sm:text-2xl md:text-[1.6rem]"   style={{
                     backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)',
                     WebkitBackgroundClip: 'text',
                     WebkitTextFillColor: 'transparent',
@@ -73,8 +75,8 @@ const LabelBridge = () => (
 
 
       <div className="max-w-5xl w-full py-16 px-4 lg:px-0 flex flex-col items-center">
-        <h3 className="raleway-600 text-2xl font-bold mb-4 mt-12 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Split Sheet Administration</h3>
-        <p className="text-white/90 text-base lg:text-lg mb-8 text-center">
+        <h3 className="raleway-600 text-xl sm:text-2xl font-bold mb-3 sm:mb-4 mt-8 sm:mt-12 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Split Sheet Administration</h3>
+        <p className="text-white/90 text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 text-center">
           As a songwriter, collaborator, or producer, having a split sheet is essential to establish proof of ownership and your percentage share for each song you create. Without it, your Performing Rights Organization (PRO), publisher, or publishing administrator may struggle to verify your ownership percentage and collect your music royalty earnings. Label Bridge simplifies this process with our in-house Split Sheet Administration. Now, you can complete your split sheet anytime and anywhere, and ensure that all parties involved in the creation of the record can sign off via email confirmation.
         </p>
       </div>
