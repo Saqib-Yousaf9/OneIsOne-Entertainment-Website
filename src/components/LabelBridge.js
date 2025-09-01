@@ -75,33 +75,63 @@ const LabelBridge = () => (
 
 
       <div className="max-w-5xl w-full py-16 px-4 lg:px-0 flex flex-col items-center">
-        <h3 className="raleway-600 text-xl sm:text-2xl font-bold mb-3 sm:mb-4 mt-8 sm:mt-12 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Split Sheet Administration</h3>
+    
+        <img 
+          src="/assets/Split.png" 
+          alt="Split Sheet Logo" 
+          className="w-[100px] h-auto md:w-[100px] lg:w-[110px] mx-auto"
+        />
+    
+      
+        <h3 className="raleway-600 text-xl sm:text-2xl font-bold mb-3 sm:mb-4 mt-7 sm:mt-12 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Split Sheet Administration</h3>
         <p className="text-white/90 text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 text-center">
           As a songwriter, collaborator, or producer, having a split sheet is essential to establish proof of ownership and your percentage share for each song you create. Without it, your Performing Rights Organization (PRO), publisher, or publishing administrator may struggle to verify your ownership percentage and collect your music royalty earnings. Label Bridge simplifies this process with our in-house Split Sheet Administration. Now, you can complete your split sheet anytime and anywhere, and ensure that all parties involved in the creation of the record can sign off via email confirmation.
         </p>
       </div>
       <div className="max-w-5xl w-full py-16 px-4 lg:px-0 flex flex-col items-center">
-        <h3 className="raleway-600 text-2xl font-bold mb-4 mt-12 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Digital Distribution</h3>
+          <img 
+          src="/assets/Musicdistribution.png" 
+          alt="Split Sheet Logo" 
+          className="w-[100px] h-auto md:w-[100px] lg:w-[110px] mx-auto"
+        />
+        <h3 className="raleway-600 text-2xl font-bold mb-4 mt-7 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Digital Distribution</h3>
         <p className="text-white/90 text-base lg:text-lg mb-8 text-center">
           As an independent record label or artist, navigating the process of getting your music into top online music stores can often be daunting and time-consuming. Label Bridge's distribution service streamlines this process, allowing you to maintain control while saving both time and money. No matter the size of your label or the stage of your career, Label Bridge is here to help you reach your goals.<br/>
           Once your release is distributed across our network of digital stores and streaming services, you can start generating revenue without any hidden fees or additional costs. Furthermore, you will gain full access to Label Bridge's innovative music technology ecosystem with no subscription fees required. With over 100 partner stores and a dedicated support team, we are committed to helping you achieve priority placements for your releases and elevate your music career to new heights!
         </p>
       </div>
       <div className="max-w-5xl w-full py-16 px-4 lg:px-0 flex flex-col items-center">
-        <h3 className="raleway-600 text-2xl font-bold mb-4 mt-12 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Accounting</h3>
+          <img 
+          src="/assets/Accountant.png" 
+          alt="Split Sheet Logo" 
+          className="w-[100px] h-auto md:w-[100px] lg:w-[110px] mx-auto"
+        />
+        <h3 className="raleway-600 text-2xl font-bold mb-4 mt-7 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Accounting</h3>
         <p className="text-white/90 text-base lg:text-lg mb-8 text-center">
           Managing a budget can be one of the most exhausting aspects of running a label or being an artist. There's no need to waste money on complex systems or overpriced accountants! The Label Bridge accounting and royalty processing system was crafted by real record label executives to simplify your workload. With Label Bridge, you can manage everything by the click of a button.<br/>
           Our platform enables you to process royalty statements from any digital store quickly, no matter how intricate or extensive they may be. Need to pay an advance? Keep track of expenses? License your music? We equip you with the tools necessary to manage additional income and deals, while also providing our clients with clear visibility into their profit and loss statements.
         </p>
       </div>
       <div className="max-w-5xl w-full py-16 px-4 lg:px-0 flex flex-col items-center">
-        <h3 className="raleway-600 text-2xl font-bold mb-4 mt-12 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Analytics & Data</h3>
+
+           <img 
+          src="/assets/Analytics.png" 
+          alt="Split Sheet Logo" 
+          className="w-[100px] h-auto md:w-[100px] lg:w-[110px] mx-auto"
+        />
+        <h3 className="raleway-600 text-2xl font-bold mb-4 mt-7 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Analytics & Data</h3>
         <p className="text-white/90 text-base lg:text-lg mb-8 text-center">
           In the fast-paced world of today's music industry, the use of music analytics and data has become essential for artists, labels, and marketers. By tapping into the wealth of information provided by streaming platforms, social media interactions, and sales figures, industry players can develop a thorough understanding of their audience's listening habits and preferences. This data-centric approach allows artists to refine their marketing campaigns, connect more meaningfully with their fans, and spot new trends in the constantly changing musical scene. Additionally, the application of cutting-edge technologies like machine learning and artificial intelligence facilitates a more nuanced examination of musical trends, paving the way for innovative ideas and an enriched listening experience. At Label Bridge, we firmly believe that embracing music analytics not only supports informed decision-making but also equips artists and brands to excel in a competitive market.
         </p>
       </div>
       <div className="max-w-5xl w-full py-16 px-4 lg:px-0 flex flex-col items-center">
-        <h3 className="raleway-600 text-2xl font-bold mb-4 mt-12 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Catalogue Arrangement</h3>
+
+             <img 
+          src="/assets/Catalogue.png" 
+          alt="Split Sheet Logo" 
+          className="w-[100px] h-auto md:w-[100px] lg:w-[110px] mx-auto"
+        />
+        <h3 className="raleway-600 text-2xl font-bold mb-4 mt-7 text-center uppercase bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #3b00ff, #FF06C1)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Catalogue Arrangement</h3>
         <p className="text-white/90 text-base lg:text-lg mb-8 text-center">
           At Label Engine, we firmly believe that the organization of a music catalog is essential for effectively managing an artist’s or label’s collection. A well-structured catalog ensures that tracks are systematically arranged and readily available for distribution and sales. Each track is typically assigned an International Standard Recording Code (ISRC), which serves as a unique identifier, facilitating the efficient tracking of audio recordings across multiple platforms and aiding in royalty management. Furthermore, albums and compilations receive a Universal Product Code (UPC), which plays a similar role in retail, helping with sales tracking and inventory oversight.<br/>
           Effective catalog organization, complete with precise metadata and coding, not only streamlines the distribution process but also boosts visibility on streaming platforms and in retail spaces, thereby maximizing an artist's exposure and revenue potential. By keeping a meticulously organized catalog, music creators can ensure their works are properly managed and promoted in an increasingly competitive landscape.
